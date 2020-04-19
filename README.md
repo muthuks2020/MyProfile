@@ -10,5 +10,5 @@ https://affectionate-visvesvaraya-e54c23.netlify.app/
 - All settings manage from contentful for example Header Menu, Homepage sections, blogs, and photos, etc.
 
 
-npm install
-gatsby develop
+- npm install
+- gatsby develop
