@@ -10,7 +10,7 @@ import About from "../components/about";
 //import Work from "../components/work";
 import Blogs from "../components/blogs";
 import Testimonial from "../components/testimonial";
-//import Contact from "../components/contact";
+import Contact from "../components/contact";
 import Photos from "../components/photos";
 
 const IndexPage = ({ data }) => (
@@ -50,7 +50,11 @@ const IndexPage = ({ data }) => (
       .map(t => {
         return <Photos data={data.contentfulPhotos}></Photos>;
       })}
-
+    {data.contentfulSiteInformation.menus
+      .filter(item => item === "Contact")
+      .map(t => {
+        return <Contact data={data.contentfulAboutMe.gmail}></Contact>;
+      })}
 
 
   </Layout>
