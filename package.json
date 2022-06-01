@@ -26,7 +26,7 @@
     "react-helmet": "^5.2.1",
     "react-share": "^4.0.1",
     "react-slick": "^0.25.2",
-    "sharp": "^0.25.2",
+    "sharp": "^0.30.5",
     "smooth-scroll": "^16.1.2"
   },
   "devDependencies": {
